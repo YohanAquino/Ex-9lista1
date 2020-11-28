@@ -1,0 +1,7 @@
+C:\Users\yohan\source\repos\EX-9-LISTA-1-Yohan_Aquino\EX-9-LISTA-1-Yohan_Aquino\bin\Debug\EX-9-LISTA-1-Yohan_Aquino.exe.config
+C:\Users\yohan\source\repos\EX-9-LISTA-1-Yohan_Aquino\EX-9-LISTA-1-Yohan_Aquino\bin\Debug\EX-9-LISTA-1-Yohan_Aquino.exe
+C:\Users\yohan\source\repos\EX-9-LISTA-1-Yohan_Aquino\EX-9-LISTA-1-Yohan_Aquino\bin\Debug\EX-9-LISTA-1-Yohan_Aquino.pdb
+C:\Users\yohan\source\repos\EX-9-LISTA-1-Yohan_Aquino\EX-9-LISTA-1-Yohan_Aquino\obj\Debug\EX-9-LISTA-1-Yohan_Aquino.csprojAssemblyReference.cache
+C:\Users\yohan\source\repos\EX-9-LISTA-1-Yohan_Aquino\EX-9-LISTA-1-Yohan_Aquino\obj\Debug\EX-9-LISTA-1-Yohan_Aquino.csproj.CoreCompileInputs.cache
+C:\Users\yohan\source\repos\EX-9-LISTA-1-Yohan_Aquino\EX-9-LISTA-1-Yohan_Aquino\obj\Debug\EX-9-LISTA-1-Yohan_Aquino.exe
+C:\Users\yohan\source\repos\EX-9-LISTA-1-Yohan_Aquino\EX-9-LISTA-1-Yohan_Aquino\obj\Debug\EX-9-LISTA-1-Yohan_Aquino.pdb
