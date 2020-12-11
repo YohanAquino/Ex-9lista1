@@ -13,17 +13,18 @@ namespace EX_9_LISTA_1_Yohan_Aquino
             /*10. Calcular e exibir a área de um retângulo, a partir dos valores da base e altura que serão
 digitados. Se a área for maior que 100, exibir a mensagem “Terreno grande”, caso contrário, exibir
 a mensagem “Terreno pequeno”. */
-            Retangulo ret = new Retangulo();
+            Retangulo retangulo = new Retangulo();
+            //Retangulo retangulo = new Retangulo(30,40);
 
             Console.Write("Informe a base do retângulo: ");
-            ret.setBase(double.Parse(Console.ReadLine()));
+            retangulo.setBase(double.Parse(Console.ReadLine()));
 
             Console.Write("Informe a altura do retângulo: ");
-            ret.setAltura(double.Parse(Console.ReadLine()));
+            retangulo.setAltura(double.Parse(Console.ReadLine()));
 
-            ret.calcularArea();
+            retangulo.calcularArea();
 
-            Console.WriteLine("O retângulo tem uma área igual a {0} e pelo padrão um {1} .", ret.getArea(), ret.getTamanho());
+            Console.WriteLine("O retângulo tem uma área igual a {0} e pelo padrão um {1} .", retangulo.getArea(), retangulo.getTamanho());
             Console.ReadKey();
 
         }

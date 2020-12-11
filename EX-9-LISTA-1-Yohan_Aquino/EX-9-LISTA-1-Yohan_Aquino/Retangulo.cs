@@ -8,31 +8,45 @@ namespace EX_9_LISTA_1_Yohan_Aquino
 {
     class Retangulo
     {
-        private double b;
-        private double h;
-        private double a;
+        #region atributos
+        private double basE;
+        private double altura;
+        private double area;
+        #endregion;
 
-        public void setBase(double x)
+        #region construtor
+
+        public Retangulo() 
         {
-            b = x;
+            basE = 0;
+            altura = 0;
         }
 
-        public void setAltura(double x)
+        public Retangulo(double basE,double altura)
         {
-            h = x;
+            this.basE = basE;
+            this.altura = altura;
         }
-        public void calcularArea()
+        #endregion;
+
+        #region metodos set e gets
+        public void setBase(double basE)
         {
-            a = b * h;
+            this.basE = basE;
+        }
+
+        public void setAltura(double altura)
+        {
+            this.altura = altura;
         }
         public double getArea()
         {
-            return a;
+            return area;
         }
 
         public string getTamanho() 
         {
-            if (a>100) 
+            if (area>100) 
             {
                 return "terreno grande";
             }
@@ -41,5 +55,13 @@ namespace EX_9_LISTA_1_Yohan_Aquino
                 return "terreno pequeno";
             }
         }
+        #endregion;
+
+        #region metodos funcionais
+        public void calcularArea()
+        {
+            area = basE * altura;
+        }
+        #endregion;
     }
 }
